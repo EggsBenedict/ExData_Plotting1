@@ -31,9 +31,7 @@ png(filename = "plot1.png",
     bg = "transparent")
 
 # Make plot
-lim <- c(0,1200)
-
 hist(powerData$Global_active_power,main="Global Active Power",
-     xlab="Global Active Power (killowats)", col="red", ylim=lim)
+     xlab="Global Active Power (killowats)", col="red")
 
 dev.off()
